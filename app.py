@@ -3,8 +3,8 @@ import re
 import telebot
 from datetime import datetime
 
-bot_token = '7089125783:AAG62y8_V7Hm-MIn7onEGfB-_Bzy-XzbbMY'
-chat_id = '1514282558'
+bot_token = ''
+chat_id = ''
 pattern_login  = r'(\w{3}\s\d{1,2})\s(\d{2}:\d{2}:\d{2})\s\w+\ssshd\[\d+\]:\sAccepted\s\w+\sfor\s(\w+)\sfrom\s(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'
 pattern_logout = r'(\w{3}\s\d{1,2})\s(\d{2}:\d{2}:\d{2})\s\w+\ssshd\[\d+\]:\s.*\sfor\s(\w+)'    
 pattern_session = r"(\w+ \d{2}) (\d{2}:\d{2}:\d{2}) .+ (systemd-logind\[\d+\]): (.+)"
